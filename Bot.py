@@ -24,18 +24,18 @@ async def start(_, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Channel", url="https://t.me/heckerman"),
-                InlineKeyboardButton("Developer", url="https://t.me/fakehecker"),
+                InlineKeyboardButton("Channel", url="https://t.me/md_noman_khan"),
+                InlineKeyboardButton("Developer", url="https://t.me/md_noman_khan"),
             ],
             [
                 InlineKeyboardButton(
-                    "Source code", url="https://github.com/Junaid433/HeckerMan-Bot"
+                    "Source code", url="https://t.me/md_noman_khan"
                 )
             ],
         ]
     )
     await m.reply_text(
-        f"Hi! {messy} \nBot Made By @fakehecker\nUse /cmds to know my commands",
+        f"Hi! {messy} \nBot Made By @md_noman_khan\nUse /cmds to know my commands",
         reply_markup=keyboard,
     )
 
@@ -43,7 +43,7 @@ async def start(_, m: Message):
 @Bot.on_message(filters.command("cmds"))
 async def help(_, m: Message):
     await m.reply_text(
-        "/start - **To check bot Status**.\n/cmds - **To check bot commands.**\n/bin - **To check Bin**\n/chk - **Stripe CHARGE**\n/sk - **SK Checker**\n/ping - **Latency Check\n/p - **Crypto Price Lookup**\n\nGates Maintained By : @fakehecker"
+        "/start - **To check bot Status**.\n/cmds - **To check bot commands.**\n/bin - **To check Bin**\n/chk - **Stripe CHARGE**\n/sk - **SK C@md_noman_khan**\n/ping - **Latency Check\n/p - **Crypto Price Lookup**\n\nGates Maintained By : @md_noman_khan"
     )
 
 @Bot.on_message(filters.command("sk"))
@@ -60,7 +60,7 @@ async def chk(_, m: Message):
       
     else: 
 
-        mafia = await m.reply_text("CC -» N/A\nSTATUS -» APPROVED ✅\nResponse -» SUCCESSFULLY CHARGED $1\nGATE -» STRIPE CHARGE\nRISK  -» HIGHEST \nREQUEST BY -» /{mfrom}\nBOT BY -» @fakehecker")
+        mafia = await m.reply_text("CC -» N/A\nSTATUS -» APPROVED ✅\nResponse -» SUCCESSFULLY CHARGED $1\nGATE -» STRIPE CHARGE\nRISK  -» HIGHEST \nREQUEST BY -» /{mfrom}\nBOT BY -» @md_noman_khan")
 
 
 
@@ -68,12 +68,12 @@ async def chk(_, m: Message):
 @Bot.on_message(filters.command("cmds"))
 async def help(_, m: Message):
     await m.reply_text(
-        "/start - **To check bot Status**.\n/cmds - **To check bot commands.**\n/bin Query - **To check Bin\n/chk - **Stripe CHARGE\n/sk - **SK Checker**\n/ping - **Latency Check**")
+        "/start - **To check bot Status**.\n/cmds - **To check bot commands.**\n/bin Query - **To check Bin\n/chk - **Stripe CHARGE\n/sk - **SK C@md_noman_khan**\n/ping - **Latency Check**")
          
 @Bot.on_message(filters.command("bin"))
 async def bin(_, m: Message):
     if len(m.command) < 2:
-        msg = await m.reply_text("**First Know What is bin, motherfucker!**`")
+        msg = await m.reply_text("**First Know What is bin, @md_noman_khan!**`")
         await sleep(15)
         await msg.delete()
 
@@ -103,8 +103,8 @@ async def bin(_, m: Message):
         
         mfrom = m.from_user.mention
         caption = f"""
-╔ Valid ￫ `{res} ✅`\n╚ Bin ￫ `{bi}`\n\n╔ Brand ￫ `{ve}`\n╠ Type ￫ `{ty}`\n╚ Level ￫ `{le}`\n\n╔ Bank ￫ `{ban} ({co})`\n╠ Country ￫ `{nm} {em}`\n╠ Alpha2 ￫ `{cod}`\n╚ DialCode ￫ `{dial}`\n\n**↠ Checked By ￫** {mfrom}\n**↠ __Bot By ￫** [HECKER] 
- (t.me/fakehecker__
+╔ Valid ￫ `{res} ✅`\n╚ Bin ￫ `{bi}`\n\n╔ Brand ￫ `{ve}`\n╠ Type ￫ `{ty}`\n╚ Level ￫ `{le}`\n\n╔ Bank ￫ `{ban} ({co})`\n╠ Country ￫ `{nm} {em}`\n╠ Alpha2 ￫ `{cod}`\n╚ DialCode ￫ `{dial}`\n\n**↠ Checked By ￫** {mfrom}\n**↠ __Bot By ￫** [@md_noman_khan] 
+ (@md_noman_khan__
 """
         await mafia.edit(caption)
 

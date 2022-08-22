@@ -3,7 +3,7 @@ This source was taken from @imdenuan , i made a lot of modifications later.
 
 Deployment : 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Junaid433/HeckerMan-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hmabdulkuddusrahul1/HeckerMan-Bot)
 
 **Bot features** : 
 
